@@ -1,0 +1,12 @@
+output/
+utils/
+data/
+.idea/
+*png
+*pyc
+*.h5
+*.txt
+*.zip
+*.pdf
+*.egg-info
+*~
