@@ -1,23 +1,13 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Nov  8 01:23:50 2021
-
-@author: Artem
-"""
 import numpy as np
 import pandas as pd
-
 import seaborn as sns
 sns.set(style="darkgrid")
-
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import roc_curve, auc
 from sklearn.model_selection import StratifiedKFold
-
 import warnings
 warnings.filterwarnings('ignore')
-
 SEED = 42
 def modRandFor(df_all, df_train, df_test, drop_cols):
     X_train = StandardScaler().fit_transform(df_train.drop(columns=drop_cols))
