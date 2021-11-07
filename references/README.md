@@ -1,1 +1,1 @@
-Папка для хранения пояснительных материалов, руководства, словари с терминами и другая полезная информация для понимая задачи и данных
+Источник - https://www.kaggle.com/gunesevitan/titanic-advanced-feature-engineering-tutorial#2.-Feature-Engineering
