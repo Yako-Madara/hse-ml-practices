@@ -1,5 +1,0 @@
-numpy
-keras
-Pillow
-gym
-h5py
