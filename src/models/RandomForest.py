@@ -104,3 +104,5 @@ def modRandFor(df_all, df_train, df_test, drop_cols):
 
     print("Average OOB Score: {}".format(oob))
     return importances, fprs, tprs, probs, N
+
+print("hello world")
